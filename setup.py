@@ -12,7 +12,7 @@ board_project_dir = os.path.join(board_notebooks_dir, 'summernet_deploy')
 
 # check whether board is supported
 def check_env():
-    if not board == 'PYNQ-Z2':
+    if not board == 'Pynq-Z2':
         raise ValueError("Board {} is not supported.".format(board))
         
 # check if the path already exists, delete if so
